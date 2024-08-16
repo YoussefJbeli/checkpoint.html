@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header{
+  position: fixed;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 35px 9%;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100%;
+}
+.logo{
+  font-size: 25px;
+  color:azure;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.logo:hover{
+  color:blueviolet;
+  text-shadow: 0 0 25px blueviolet,
+               0 0 50px blueviolet;
+  transform: scale(1.1);
+}
+.navbar a{
+  font-size: 20px;
+  color:azure;
+  font-weight: 500;
+  margin: 0 20px;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+.navbar a:hover, .navbar a:active{
+  color: azure;
+  border-bottom: 3px solid blueviolet;
+}
+.contact{
+  padding: 10px 20px;
+  background-color: azure;
+  color: aquamarine;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  border-right-width: 2px;
+  padding-right: 20px;
+  margin-right: 170px;
+}
+.contact:hover{
+  background-color: blueviolet;
+  box-shadow:  0 0 25px blueviolet;
+  color: azure;
+}
+.home{
+  width: 100%;
+  min-height: 100vh;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  gap: 7em;
+  padding: 30px 12% 0;
+}
+.home-content{
+  max-width: 800px;
+}
+.home-content h3{
+  font-size: 42px;
+}
+.home-content h1{
+  font-size: 63px;
+  line-height: 1.2;
+}
+.home-content p {
+  font-size: 18px;
+  margin: 25px 0 18px;
+}
+.btn-box{
+  width: 345px;
+  display: flex;
+  gap: 2em; 
+}
+span{
+  color: blueviolet;
+}
+.btn-1{
+  padding: 15px 20px;
+  background-color: aquamarine;
+  color: azure;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.btn-1:hover{
+  background-color: blueviolet;
+  color: azure;
+  border: 2px solid blueviolet;
+}
+
+.contact-form h2{
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-size: 36px;
+}
+.contact-form form{
+  max-width: 50em;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3em;
+}
+.contact-form form .input-box{
+  display: flex;
+  justify-content: center
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+  width: 100%;
+  padding: 1.5em;
+  font-size: 18px;
+  color: aquamarine;
+  background-color: azure;
+  border-radius: .8rem;
+  margin: 1rem 0  ;
+  resize: none;
+}
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 40px 0;
+  background-color: aquamarine;
+}
+.footer ul{
+  margin-top: 0;
+  padding: 0;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul li a{
+  color: azure;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+.footer ul li a:hover{
+  border-bottom: 3px solid blueviolet;
+}
+.footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
